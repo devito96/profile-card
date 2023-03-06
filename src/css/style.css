@@ -13,12 +13,11 @@ main {
 
 section {
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     background-color: #fff;
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    margin-top: auto;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
     margin: 20px;
 }
 
@@ -27,12 +26,10 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    margin-bottom: 25px;
 }
 
 img {
-    padding: 24px;
-    margin-top: 25px;
+    margin-top: 40px;
     max-width: 100%;
     border-radius: 50%;
 }
@@ -46,7 +43,7 @@ hr {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
-    font-size: 1.4em;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -55,6 +52,11 @@ ul li p.contador {
     font-weight: 700;
 }
 
-.idade , .cidade {
+.cidade , .tipo-contador{
     font-weight: 400;
+    color: hsl(227, 10%, 46%)
 }   
+
+.idade {
+    color: hsl(227, 10%, 46%);
+}
